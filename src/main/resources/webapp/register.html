@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+<body>
+<form action="/EmployeeTask/register" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="employeeName" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="employeeEmail" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="employeePassword" required><br><br>
+
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="employeeSalary" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="employeePhoneNumber" required><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="employeeAge" required><br><br>
+
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>
